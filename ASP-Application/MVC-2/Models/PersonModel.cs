@@ -1,0 +1,16 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+
+namespace MVC_2.Models
+{
+    public class PersonModel
+    {
+        public string firstName { get; set; }
+        public string LastName { get; set; }
+        public int Age { get; set; } = 0;
+        public bool IsAlive { get; set; } = true;
+
+    }
+}
